@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Soda Springs | RN Weather</title>
+    <link rel="stylesheet" href="css\style.css" />
+    <link rel="icon" href="/lesson-06/images/icons/favicon16x16.png"
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><img id="logo" src="images/weatherIcon.png" alt="RN Weather Logo"
+      /></a>
+      <div id="company">
+        <h1 id="companyTitle">RN Weather</h1>
+        <h3 id="motto">Your weather, right now</h3>
+      </div>
+    </header>
+
+    <nav>
+      <ul class="navigation">
+        <li>
+          <a class="ham" href="#"><img src="images/icons/menu--v1.png" /></a>
+        </li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="preston.html">Preston</a></li>
+        <li><a id="active" href="sodaSprings.html">Soda Springs</a></li>
+        <li><a href="fishHaven.html">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <div id="content">
+      <h2 id="cityName">Soda Springs, ID</h2>
+
+      <div id="hero">
+        <img
+          srcset="
+            images\soda-springs30.jpg 350w,
+            images\soda-springs60.jpg 500w
+          "
+          sizes="(max-width:500px) 350px, (max-width:750px) 500px"
+          src="images\soda-springs-full.jpg"
+        />
+        <div id="currentWeather">
+          <h3>Current Weather</h3>
+          <h5 class="rightAlign">Currently:</h5>
+          <h5 id="currently">Unavailable</h5>
+          <h5 class="rightAlign">High:</h5>
+          <h5 id="currentTemp">N/A</h5>
+          <!-- broken -->
+          <h5 class="rightAlign windChill">Wind Chill:</h5>
+          <h5 class="windChill" id="windChillValue">N/A</h5>
+          <h5 class="rightAlign">Humidity:</h5>
+          <h5 id="humidityValue">N/A</h5>
+          <h5 class="rightAlign">Wind Speed:</h5>
+          <h5 id="windSpeed">N/A</h5>
+        </div>
+      </div>
+
+      <div id="forecast">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+      </div>
+
+      <div id="article">
+        <img src="images\stock.jpg" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <ul id="info">
+        <li><h6 id="first">RN Weather</h6></li>
+        <li>
+          <a href="https://maps.google.com">
+            <img id="map" src="images\icons\pin.png" alt="" />
+            <h6 id="address">2585 Modoc Alley</h6>
+          </a>
+        </li>
+        <li><h6 id="cityState">Preston, ID 83263</h6></li>
+        <li><h6 id="phone">(208) 555 - 6812</h6></li>
+        <li><h6 id="email">contact@rnweather.com</h6></li>
+      </ul>
+      <h6 id="social">Social</h6>
+      <ul id="socialIcons">
+        <li>
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img id="fb" src="images\icons\fb.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img id="ig" src="images\icons\ig.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://pintrest.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img id="pt" src="images\icons\pinterest.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img id="tw" src="images\icons\twitter.png" alt=""
+          /></a>
+        </li>
+      </ul>
+
+      <ul id="usa">
+        <li>
+          <a
+            href="https://www.flaticon.com/free-icons/flag"
+            title="flag
+          icons"
+            ><img src="images\icons\united-states (1).png" alt=""
+          /></a>
+        </li>
+        <li id="country"><h5>USA, Idaho</h5></li>
+      </ul>
+      <p id="footerA">
+        &copy; 2022 | Nolan Thomas Vargas | Idaho |
+        <a href="https://www.byui.edu/online" style="color: #b1e4fb"
+          >BYUI Online Learning</a
+        >
+      </p>
+      <p id="footerB"></p>
+    </footer>
+
+    <script src="js/index.js"></script>
+    <script type="module" src="./js/sodaSprings.js"></script>
+  </body>
+</html>

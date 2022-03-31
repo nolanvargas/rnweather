@@ -1,0 +1,56 @@
+#stormCenter h1 {
+  margin: 10px auto;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+.form {
+  background-color: lightgray;
+  max-width: 700px;
+  margin: auto;
+}
+
+#tickmarks {
+  display: none;
+}
+.form * {
+  display: block;
+  padding-top: 10px;
+  margin: 5px;
+}
+#rating {
+  padding: 0;
+  margin-top: -5px;
+}
+.flexly {
+  display: flex;
+}
+#location *,
+#location,
+#danger,
+#danger * {
+  padding: 0;
+}
+#location label,
+#danger label {
+  display: flex;
+}
+
+#location h4,
+#danger h4 {
+  display: block;
+}
+[type*="submit"] {
+  width: 100px;
+  margin: 20px auto;
+  padding-bottom: 10px;
+}
+[type*="text"],
+[type*="email"],
+[type*="tel"] {
+  width: 50%;
+}
+
+#danger {
+  margin-top: 10px;
+}

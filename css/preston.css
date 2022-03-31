@@ -1,0 +1,22 @@
+/*-------------------- ASIDE --------------------*/
+
+#prestonPancakes {
+  display: none;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  color: #14213d;
+  background-color: #e5e5e5;
+  overflow: hidden;
+}
+
+#prestonPancakesMessage {
+  margin: 0 auto;
+  padding: 5px;
+}
+
+@media (min-width: 548px) {
+  #prestonPancakes {
+    font-size: 1.25rem;
+  }
+}

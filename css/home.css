@@ -1,0 +1,130 @@
+@media (max-width: 999px) {
+  #home img {
+    width: 100%;
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+
+  .motto {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  #home div {
+    overflow: auto;
+  }
+
+  #home ul {
+    width: 49%;
+    height: 50%;
+    margin: 5% 0;
+  }
+
+  #home img {
+    width: 50%;
+  }
+  .isRight img {
+    float: right;
+  }
+  .isRight ul {
+    float: left;
+  }
+  .isLeft ul {
+    float: right;
+  }
+  .isLeft img {
+    float: left;
+  }
+
+  .name {
+    font-size: 2.5rem;
+  }
+
+  .motto {
+    font-size: 1.75rem;
+  }
+
+  .descriptions {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  #home {
+    display: flex;
+  }
+
+  #home div ul {
+    width: 100%;
+  }
+
+  #home div {
+    width: 32%;
+    height: 600px;
+    margin: 1%;
+  }
+
+  #home div img {
+    width: 100%;
+    max-height: 250px;
+  }
+}
+
+#home {
+  margin: 10px auto;
+  width: 90%;
+  max-width: 1200px;
+}
+#home ul {
+  padding: 0;
+}
+
+.name {
+  margin: -15px auto 0 auto;
+  font-family: "Quicksand", sans-serif;
+}
+
+.motto {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 15px;
+}
+
+.descriptions {
+  font-family: "Quicksand", sans-serif;
+}
+
+#home div {
+  background-color: lightgrey;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+#home * {
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+}
+
+#home h1,
+h3,
+h4 {
+  margin: 10px auto;
+  font-family: "Quicksand", sans-serif;
+}
+
+#home h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+#home h3 {
+  font-family: "Quicksand", sans-serif;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #14243d;
+}
